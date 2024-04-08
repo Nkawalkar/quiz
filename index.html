@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div id="question-container">
+            <h2 id="question">Question goes here</h2>
+            <ul id="options" class="options-list">
+                <!-- Options will be populated dynamically -->
+            </ul>
+        </div>
+        <div id="timer-container">
+            <p id="timer">Timer: <span id="time-left"></span></p>
+        </div>
+        <button id="next-btn" onclick="nextQuestion()">Next</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
